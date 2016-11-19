@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataTable.h"
+#import "DBController.h"
 
 @interface ViewController : UIViewController
 
+
+@property (nonatomic,strong) DBController *db;
+@property (nonatomic,strong) DataTable *currencyTbl;
 
 @end
 
